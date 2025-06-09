@@ -1,0 +1,154 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: inherit;
+}
+
+body {
+    background-color: rgb(6, 203, 203);
+    color: black;
+    overflow-x: hidden;
+}
+
+.other {
+    margin-top: 100px;
+    height: 560px;
+    width: 70.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-left: 15%;
+    margin-bottom: 100px;
+    background-color: white;
+    color: black;
+    position: fixed;
+    top: 0;
+}
+
+.content {
+    width: 100%;
+    background-color: white;
+}
+
+.banner {
+    padding: 20px;
+    height: 200px;
+    margin: 20px;
+    background-color: white;
+}
+
+.hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('images/college-banner-Cz0xylpt.png');
+    background-color: white;
+    width: 100%;
+    height: 80%;
+    background-size: contain;
+    /* background-position: left; */
+    background-attachment: scroll;
+    /* filter: brightness(60%); */
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+    justify-content: center;
+}
+
+.hero-section h1,
+p {
+    background: none;
+}
+
+.hero-section h1 {
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    color: white;
+    margin-right: 100px;
+}
+
+.hero-section p {
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+    margin-right: 100px;
+}
+
+.hero-section button {
+    padding: 5px, 5px, 5px, 5px;
+    background-color: rgb(61, 170, 61);
+    color: white;
+    border-radius: 6px;
+    margin-right: 110px;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 100px;
+    width: 90%;
+    background-color: white;
+    color: black;
+}
+
+.info p {
+    line-height: 24px;
+    font-size: 17.5px;
+    margin-top: 10px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+}
+
+.text h2 {
+    padding: 10px;
+    font-size: 32px;
+}
+
+.text ul {
+    margin-top: 0%;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.text li {
+    font-size: 17.5px;
+    line-height: 28px;
+    margin-left: 40px;
+}
+
+.img {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img img {
+    width: 100%;
+    height: 295px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.bottom{
+    margin-left: 80px;
+}
+.bottom button{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

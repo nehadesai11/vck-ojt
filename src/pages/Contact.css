@@ -1,0 +1,140 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: inherit;
+}
+
+body {
+    background-color: rgb(6, 203, 203);
+    color: black;
+    overflow-x: hidden;
+}
+
+.other {
+    margin-top: 100px;
+    height: 560px;
+    width: 70.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-left: 15%;
+    margin-bottom: 100px;
+    background-color: white;
+    color: black;
+    position: fixed;
+    top: 0;
+}
+
+.contact-head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.contact-head h1{
+  color: #007bff;
+  font-size: 38.8px;
+  background-color: white;
+  margin-top: 15px;
+  padding: 10px;
+}
+.contact-head p{
+  line-height: 24px;
+  font-size: 17.5px;
+  background-color: white;
+  width: 100%;
+  padding: 10px;
+  margin: 0%;
+}
+.enquiry{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 100%;
+}
+.enquiry h2{
+  font-size: 28px;
+  margin-top: 0%;
+}
+#bold-text{
+  margin-top: 10px;
+  line-height: 24px;
+  font-size: 17.5px;
+  padding: 5px;
+}
+#p2{
+  margin-top: 20px;
+}
+.enquiry p{
+  padding: 5px;
+  line-height: 24px;
+  font-size: 17.5px;
+}
+.admit{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
+.admit h2{
+  font-size: 28px;
+  padding: 5px;
+}
+#a-p1{
+  line-height: 24px;
+  font-size: 17.5px;
+  margin-top: 12px;
+}
+#a-p2{
+  margin-bottom: 12px;
+}
+.admit p{
+  line-height: 24px;
+  font-size: 17.5px;
+  padding: 2px;
+}
+.services{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
+#s-p{
+  margin-top: 20px;
+}
+.services p{
+  padding: 5px;
+  line-height: 18px;
+  font-size: 17.5px;
+}
+
+.map{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
+.map p{
+  padding: 10px;
+  line-height: 24px;
+  font-size: 17.5px;
+}
+.map a{
+  margin-left: 10px;
+  font-size: 17.5px;
+  text-decoration: underline;
+}
+.message{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
+.message p{
+  padding: 10px;
+  line-height: 24px;
+  font-size: 17.5px;
+  width: 100%;
+}

@@ -1,0 +1,118 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: inherit;
+}
+
+body {
+    background-color: rgb(6, 203, 203);
+    color: black;
+    overflow-x: hidden;
+}
+
+.other {
+    margin-top: 100px;
+    height: 560px;
+    width: 70.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-left: 15%;
+    margin-bottom: 100px;
+    background-color: white;
+    color: black;
+    position: fixed;
+    top: 0;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.head h1{
+    font-size: 38.8px;
+    margin-top: 10px;
+}
+.c-text{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+.c-text h2{
+    padding: 10px;
+    font-size: 25px;
+}
+.c-text ul{
+    margin-left: 50px;
+    font-size: 17.5px;
+    padding: 10px;
+}
+.c-text li{
+    padding: 0%;
+    margin: 0%;
+}
+.video video{
+    height: 500px;
+    width: 90%;
+    margin-left: 45px;
+}
+.c-text2{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+.c-text2 h2{
+    padding: 10px;
+    font-size: 25px;
+}
+.c-text2 ul{
+    margin-left: 50px;
+    font-size: 17.5px;
+    padding: 10px;
+}
+.c-text3{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-left: 20px;
+}
+.c-text3 h2{
+    padding: 10px;
+    font-size: 25px;
+}
+.c-text3 ul{
+    margin-left: 50px;
+    font-size: 17.5px;
+    padding: 10px;
+}
+.c-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.c-bottom h4{
+    padding: 20px;
+    margin-top: 20px;
+}
+.c-bottom button{
+    padding: 5px ,5px ,5px ,5px;
+    margin-bottom: 20px;
+    background-color: rgb(22, 169, 22);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.table,tbody,thead,tr,th,td{
+    border: 1px solid;
+    padding: 10px;
+}
