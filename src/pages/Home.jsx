@@ -27,23 +27,23 @@ const Home = () => {
                 <article className="text">
                     <h2>Why Choose Vivekanand College?</h2>
                     <ul>
-                        <li>**Legacy of Excellence:** Decades of commitment to quality education.</li>
-                        <li>**Experienced Faculty:** Learn from renowned experts and passionate educators.</li>
-                        <li>**Modern Facilities:** Well-equipped labs, expansive library, and comfortable campus.</li>
-                        <li>**Holistic Development:** Focus on co-curricular activities, sports, and community service.</li>
-                        <li>**Strong Placements:** Excellent career opportunities with leading companies.</li>
+                        <li>*Legacy of Excellence:* Decades of commitment to quality education.</li>
+                        <li>*Experienced Faculty:* Learn from renowned experts and passionate educators.</li>
+                        <li>*Modern Facilities:* Well-equipped labs, expansive library, and comfortable campus.</li>
+                        <li>*Holistic Development:* Focus on co-curricular activities, sports, and community service.</li>
+                        <li>*Strong Placements:* Excellent career opportunities with leading companies.</li>
                     </ul>
                 </article>
                 <figure className="image">
                     <figcaption>Campus Life & Facilities</figcaption>
                     <section className="img">
-                        <img src="public\images\students-studying-DbLGuwF_.jpeg" />
-                        <img src="public\images\campus-life-Crkero7B.jpg" id="img2" />
+                        <img src="/images/students-studying-DbLGuwF_.jpeg" />
+                        <img src="/images/campus-life-Crkero7B.jpg" id="img2" />
                     </section>
                 </figure>
                 <section className="bottom">
-                    <h4>Ready to start your journey with us?</h4>
-                    <button>Apply Now!</button>
+                    <h4>Ready to explore our courses?</h4>
+                    <button><Link to="/coursespage"><b id="bold">Explore Courses</b></Link></button>
                 </section>
             </div>
             <div><Footer /></div>
