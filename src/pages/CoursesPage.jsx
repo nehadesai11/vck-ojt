@@ -116,7 +116,7 @@ const CoursesPage = () => {
                 </section>
                 <section className="c-bottom">
                     <h4>Explore detailed syllabi and admission criteria on our Admissions page.</h4>
-                    <button><Link to="contactpage"><b id="bold">Inquire About Courses</b></Link></></button>
+                    <button><Link to="/contactpage"><b id="bold">Inquire About Courses</b></Link></></button>
                 </section>
             </div>
             <div><Footer /></div>
