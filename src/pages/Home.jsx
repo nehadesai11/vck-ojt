@@ -37,8 +37,8 @@ const Home = () => {
                 <figure className="image">
                     <figcaption>Campus Life & Facilities</figcaption>
                     <section className="img">
-                        <img src="public\images\students-studying-DbLGuwF_.jpeg" />
-                        <img src="public\images\campus-life-Crkero7B.jpg" id="img2" />
+                        <img src="/images/students-studying-DbLGuwF_.jpeg" />
+                        <img src="/images/campus-life-Crkero7B.jpg" id="img2" />
                     </section>
                 </figure>
                 <section className="bottom">
