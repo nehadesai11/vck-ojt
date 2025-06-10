@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: inherit;
+    color: rgb(78, 77, 77);
 }
 
 body {
@@ -40,8 +41,7 @@ body {
 }
 
 .hero-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url('/images/college-banner-Cz0xylpt.png');
+    background-image: url(public/images/darkened-image.png);
     background-color: white;
     width: 100%;
     height: 80%;
@@ -113,6 +113,7 @@ p {
 .text h2 {
     padding: 10px;
     font-size: 32px;
+    margin-left: 20px;
 }
 
 .text ul {
@@ -142,13 +143,24 @@ p {
     border-radius: 8px;
 }
 .bottom{
-    margin-left: 80px;
+    width: 100%;
 }
 .bottom button{
-    background-color: green;
+    background-color: rgb(41, 187, 41);
     color: white;
     font-weight: bold;
-    margin-left: 60px;
+    margin-left: 42%;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+#bold{
+    color: white;
+}
+.bottom h4{
+    margin-left: 38%;
+    color: rgb(78, 77, 77);
+}
+figcaption{
+    font-size: 28px;
+    font-weight: bold;
 }
