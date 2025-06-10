@@ -15,7 +15,7 @@ const CoursesPage = () => {
                 </section>
                 <section className="video">
                     <video>
-                        <source src="public/videos/college-tour-FAmcnyfF.mp4" controls></source>
+                        <source src="/videos/college-tour-FAmcnyfF.mp4" controls></source>
                     </video>
                 </section>
                 <section className="c-text">
