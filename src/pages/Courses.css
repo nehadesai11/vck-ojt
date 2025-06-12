@@ -112,9 +112,28 @@ body {
     font-weight: bold;
     border-radius: 5px;
 }
-.table,tbody,thead,tr,th,td{
-    border: 1px solid;
+tbody,thead,tr,th,td{
+    border: 0.5px solid gray;
     padding: 10px;
+    border-collapse: collapse;
+}
+.table table{
+    margin-left: 20px;
+    border-collapse: collapse;
+    border-color: gray;
+}
+.table h2{
+    font-size: 25px;
+    margin-left: 10px;
+}
+.table {
+    width: 100%;
+}
+#row-h{
+    background-color: rgba(224, 219, 219, 0.707);
+}
+#row2{
+    background-color: rgb(240, 238, 238);
 }
 #bold{
     color: white;

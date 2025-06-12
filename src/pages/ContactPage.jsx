@@ -20,8 +20,8 @@ const ContactPage = () => {
                             <h4 id="bold-text">Vivekanand College Main Campus</h4>
                             <p id="p1">[Your College Full Address Here, e.g., Mahatma Gandhi Road, Chembur, Mumbai, Maharashtra 400071]
                                 India</p>
-                            <p id="p2">Phone: **+91 12345 67890**</p>
-                            <p>Email: **info@vivekanandcollege.edu**</p>
+                            <p id="p2">Phone: *+91 12345 67890*</p>
+                            <p>Email: *info@vivekanandcollege.edu*</p>
                             <p>Office Hours: Monday - Friday, 9:00 AM - 5:00 PM IST</p>
                         </p>
                     </section>
@@ -52,4 +52,4 @@ const ContactPage = () => {
         </>
     )
 }
-export default ContactPage;
+export default ContactPage;

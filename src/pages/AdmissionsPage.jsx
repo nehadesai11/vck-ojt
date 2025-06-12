@@ -4,6 +4,7 @@ import './Admissions.css'
 import "../components/Header/Header.css";
 import "../components/Footer/Footer.css";
 import Footer from "../components/Footer/Footer";
+import { Link } from "react-router-dom";
 const AdmissionsPage = () => {
     return (
         <>
@@ -48,6 +49,7 @@ const AdmissionsPage = () => {
                     </table>
                 </section>
                 <section className="list">
+                    <h2>Application Process</h2>
                     <ol>
                         <li>Online Application: Fill out the application form available on our portal.</li>
                         <li>Document Submission: Upload scanned copies of required documents (mark sheets, ID proof, etc.).</li>
@@ -57,11 +59,11 @@ const AdmissionsPage = () => {
                     </ol>
                 </section>
                 <section className="para">
-                    <p>Fee Payment: Complete the admission by paying the required fees.</p>
+                    <p>For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our <Link to="/coursespage">Courses page</Link> or <Link to="/contactpage">Contact us</Link> directly.</p>
                 </section>
             </div>
             <div><Footer /></div>
         </>
     )
 }
-export default AdmissionsPage;
+export default AdmissionsPage;

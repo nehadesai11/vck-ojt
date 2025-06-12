@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/Header/Header"
+import Header from "../components/Header/Header";
 import './Home.css'
 import "../components/Header/Header.css";
 import "../components/Footer/Footer.css";
@@ -37,8 +37,8 @@ const Home = () => {
                 <figure className="image">
                     <figcaption>Campus Life & Facilities</figcaption>
                     <section className="img">
-                        <img src="/images/students-studying-DbLGuwF_.jpeg" />
-                        <img src="/images/campus-life-Crkero7B.jpg" id="img2" />
+                        <img src="public\images\students-studying-DbLGuwF_.jpeg" />
+                        <img src="public\images\campus-life-Crkero7B.jpg" id="img2" />
                     </section>
                 </figure>
                 <section className="bottom">
@@ -50,4 +50,4 @@ const Home = () => {
         </>
     )
 }
-export default Home;    
+export default Home;
